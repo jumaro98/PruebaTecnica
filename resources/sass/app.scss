@@ -1,0 +1,68 @@
+// Fonts
+@import url('https://fonts.bunny.net/css?family=Nunito');
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans:wght@100..900&family=Quicksand:wght@300..700&family=Zen+Dots&display=swap');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import 'bootstrap/scss/bootstrap';
+
+body{
+    height: 100vh!important;
+    background: linear-gradient(
+        rgb(30, 14, 61),
+         rgb(59 10 32 / 84%)  /* Color con transparencia */
+    ), url('/public/images/bg-body.png'); 
+
+
+/*     background-image: url('/public/images/bg-body.png'); */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+/* body::before{
+    background-color: #1e0e3d;
+
+} */
+.card-header{
+    font-family: "Zen Dots", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: x-large;
+  color: white;
+
+}
+.card-title{
+    font-family: "Zen Dots", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: large;
+}
+.card-text{
+    font-family: "Encode Sans", sans-serif;
+    font-style: normal;
+
+}
+
+.card img{
+    border-radius: 50%;
+}
+
+.navbar-brand {
+    color: #fff;
+}
+
+
+.card-auth .card-header{
+    color: #fff;
+}
+.card-auth label{
+    color: #fff;
+}
+
+.card-auth{
+    border-radius: 10px 40px 10px 40px;
+    background: linear-gradient(to right, rgba(181, 190, 255, 0.431372549), #f784a86b);
+}
